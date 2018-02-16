@@ -53,5 +53,6 @@ void destroyInterpreter(interpreter *i);
 int step(interpreter *i);
 
 uint32_t get_abbreviation_addr(interpreter *i, uint8_t idx);
+uint16_t read_global(interpreter *i, uint8_t idx);
 
 #endif
